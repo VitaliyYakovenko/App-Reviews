@@ -13,5 +13,5 @@ export default function Title({ tag, children }: ITitple): JSX.Element {
             return <h3 className={styles.h3}>{children}</h3>;
         default:
             return <></>;
-     }
+    };
 };

@@ -34,7 +34,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/components/Title/Title.props.sx"
-  ],
+, "next.config.ts"  ],
   "exclude": [
     "node_modules"
   ]
