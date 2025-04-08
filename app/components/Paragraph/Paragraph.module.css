@@ -1,0 +1,22 @@
+
+
+.mediumText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.smallText {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.largeText {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}

@@ -22,22 +22,45 @@
     background-color: var(--acent-color);
 }
 
-.primary:hover {
+.primary svg {
+   fill: white;
+}
+
+.primary:hover,
+.primary:hover svg {
+    fill: #3B434E;
     background-color: var(--acent-hover-color);
 }
 
 
 .ghost {
     transition: all 250ms linear;
-
+  
     border-color: var(--border-btn-color);
     color: var(--main-text-color);
     background-color: transparent;
 }
 
-.ghost:hover {
+
+.ghost:hover,
+.ghost:hover svg {
     color: var(--main-text-color);
     
     color:var(--footer-text-color);
     background-color: var(--acent-color);
+    fill: white;
 }
+
+
+.arrow {
+    display: inline-block;
+ 
+    margin-left: 10px;
+    fill: #3B434E;
+}
+
+.down {
+    transform: rotate(90deg);
+    transition: all 250ms linear;
+}
+
