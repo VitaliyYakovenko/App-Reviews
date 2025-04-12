@@ -55,6 +55,7 @@ export default function Rating({ isEditable = false, rating, setRating, ...props
         setRating(i);
     }
 
+    
     return (
         <div {...props}>
             {ratingArr.map((r, i) => (
@@ -62,6 +63,7 @@ export default function Rating({ isEditable = false, rating, setRating, ...props
             ))}
         </div>
     );
+
 }
 
 
