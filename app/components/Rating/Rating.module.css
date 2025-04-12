@@ -1,0 +1,13 @@
+
+.star svg {
+    margin-right: 5px;
+}
+
+
+.filled  svg{
+    fill: var(--acent-hover-color);
+}
+
+.editable {
+    cursor: pointer;
+}
